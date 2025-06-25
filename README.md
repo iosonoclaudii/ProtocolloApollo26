@@ -25,10 +25,10 @@ Il giocatore si risveglia a bordo di una nave spaziale abbandonata e dovrà espl
 
 - `play.php` – pagina principale del gioco, recupera dinamicamente le scene
 - `db.php` – connessione PDO al database
-- `scenes` (tabella MySQL) – contiene testo, scelte e destinazioni
+- `index.php` – Serve per ricominciare una nuova partita da zero
+- `functions.php` - Contiene la funzione getScene($id), che recupera i dati di una scena specifica dal database, in base all'ID passato
+- `/assets` 
 - `style.css` – stile base dell’interfaccia
-- `/assets` – immagini e risorse statiche (se presenti)
-
 ---
 
 ## 🔧 Requisiti tecnici
